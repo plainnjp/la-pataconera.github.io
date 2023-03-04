@@ -10,6 +10,7 @@ font-family: 'Syne', sans-serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    transition: 0.3s;
 }
 
 html {
@@ -25,6 +26,8 @@ main {
     grid-column-start: 2;
     grid-column-end: 3;
     padding: 10px 0 17px 0;
+    max-width: 900px;
+    margin: auto;
 }
 
 /****** Navigation ******/
@@ -70,6 +73,7 @@ nav a {
 header img {
     aspect-ratio: 5588 / 1080;
     height: 40px;
+    width: auto;
     margin: 0;
 }
 
@@ -142,7 +146,7 @@ main a {
 img {
     width: 100%;
     margin: 0 0 20px 0;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
 }
 
@@ -183,6 +187,7 @@ textarea {
     border: none;
     padding: 10px;
     border-radius: 0 10px 0 10px;
+    background-color: #fff;
 }
 .submit:hover {
     transition: 0.3s;
@@ -209,3 +214,11 @@ footer a img {
     width: auto;
     aspect-ratio: 5588 / 1080;
 }
+
+/****** responsive ******/
+
+@media screen and (max-width: 850px) {
+    main img {
+        aspect-ratio: 1 / 1;
+      }
+    }
