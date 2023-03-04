@@ -1,3 +1,33 @@
+
+<?php
+    //Die E-Mail Adresse, an die die Kontaktanfragen gesendet werden
+    $empfaenger = "noep@outlook.de";
+    if(isset($_REQUEST["submit"])){
+        if(empty($_REQUEST["name"]) || empty($_REQUEST["email"]) || empty($_REQUEST["nachricht"])){
+            $error = "Bitte f&uuml;llen Sie alle Felder aus";
+        }
+        else{
+            //Text der E-Mail Nachricht
+            $mailnachricht="Sie haben eine Anfrage über ihr Kontaktformular erhalten:\n";
+            $mailnachricht .= "Name: ".$_REQUEST["name"]."\n".
+                      "E-Mail: ".$_REQUEST["email"]."\n".
+                      "Datum: ".date("d.m.Y H:i")."\n".
+                      "\n\n".$_REQUEST["nachricht"]."\n";            
+            //Betreff der E-Mail Nachricht
+            $mailbetreff = "Kontaktanfrage ".$_REQUEST["betreff"]." (".$_REQUEST["email"].")";
+            //Hier wird die E-Mail versendet
+            if(mail($empfaenger, $mailbetreff, $mailnachricht)){
+                //Text den der Seiten Besucher nach dem Versand sieht
+                $success = "Wir haben Ihre Anfrage erhalten und werden sie so schnell wie möglich bearbeiten. <br>";
+            }
+            else{
+                $error = "Beim Versenden Ihrer Anfrage ist ein Fehler aufgetreten! Versuchen Sie es bitte später nocheinmal.";
+            }
+        }
+    }
+?>
+
+
 <!DOCTYPE html>
 <html lang="de">
     <head>
@@ -25,7 +55,7 @@
                         <a href="./services.html">Services</a>
                     </li>
                     <li>
-                        <a href="./contact.html">Contact</a>
+                        <a href="./contact.php">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -39,6 +69,11 @@
             <div class="page">
                 <h1>Contact</h1>
 
+                <?php if(isset($success)){
+            echo "<div>".$success."</div>"; 
+        } 
+        else { ?>
+
                 <form action="">
                     <input class="block" type="text" placeholder="Vorname" required>
                     <input class="block" type="text" placeholder="Nachname" required>
@@ -46,6 +81,18 @@
                     <textarea placeholder="Dein Anliegen" class="block" rows="10" required></textarea>
                     <input class="submit" type="submit">
                 </form>
+                <script>
+
+            function validateForm(){
+                var form = document.getElementById("kontaktform");
+                return form.checkValidity();
+            }
+        </script>
+        <?php 
+        } 
+        if(isset($error)){
+            echo '<div class="error">'.$error.'</div>'; 
+        } ?>
             </div>
         </main>
 
