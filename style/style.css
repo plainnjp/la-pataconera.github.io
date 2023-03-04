@@ -116,6 +116,8 @@ h1 {
 .h1a {
     text-decoration: none;
     text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 .h1a h1 {
     text-align: center;
@@ -158,6 +160,7 @@ form {
     margin-bottom: 17px;
     background-color: #fff;
     border: 0px ;
+    border-radius: 3px;
 }
 
 input, 
@@ -175,9 +178,16 @@ textarea {
 }
 
 .submit {
+    transition: 0.3s;
     width: 100%;
     border: none;
     padding: 10px;
+    border-radius: 0 10px 0 10px;
+}
+.submit:hover {
+    transition: 0.3s;
+    border-radius: 0;
+    border-radius: 10px 0 10px 0;
 }
 
 /****** Footer ******/
