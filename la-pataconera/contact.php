@@ -1,7 +1,7 @@
 
 <?php
     //Die E-Mail Adresse, an die die Kontaktanfragen gesendet werden
-    $empfaenger = "noep@outlook.de";
+    $empfaenger = "eonplain@gmail.com";
     if(isset($_REQUEST["submit"])){
         if(empty($_REQUEST["name"]) || empty($_REQUEST["email"]) || empty($_REQUEST["nachricht"])){
             $error = "Bitte f&uuml;llen Sie alle Felder aus";
@@ -75,11 +75,11 @@
         else { ?>
 
                 <form action="">
-                    <input class="block" type="text" placeholder="Vorname" required>
-                    <input class="block" type="text" placeholder="Nachname" required>
-                    <input class="block" type="email" placeholder="Mail" required>
-                    <textarea placeholder="Dein Anliegen" class="block" rows="10" required></textarea>
-                    <input class="submit" type="submit">
+                    <input class="block" id="name" name="name" type="text" placeholder="Vorname" required>
+                    <input class="block" id="email" name="email" type="email" placeholder="Mail" required>
+                    <input class="block" id="betreff" name="betreff" type="text" placeholder="Betreff" required>
+                    <textarea id="nachricht" name="nachricht" placeholder="Dein Anliegen" class="block" rows="10" required></textarea>
+                    <input class="submit" type="submit" name="submit">
                 </form>
                 <script>
 
