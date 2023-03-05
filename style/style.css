@@ -20,7 +20,7 @@ html {
 
 main {
     display: grid;
-    min-height: calc(100vh - 106px - 64px);
+    min-height: calc(100vh - 105px - 82px);
     grid-template-columns: 40px 1fr 40px;
     align-content: start;
 }
@@ -114,7 +114,7 @@ h1 {
     color: #fff;
     background: #E4D1FF;
     width: 100vw;
-    padding: 25vh 0 25vh 0;
+    padding: 15vh 0 15vh 0;
     margin: 0;
     font-size: 10vw;
     text-decoration: none;
@@ -164,6 +164,7 @@ form {
     background-color: #1f0033;
     padding: 15px;
     margin-bottom: 17px;
+    border-radius: 10px;
 }
 
 .block {
@@ -171,7 +172,7 @@ form {
     padding: 7px;
     margin-bottom: 17px;
     background-color: #fff;
-    border: 0px ;
+    border: 7px ;
     border-radius: 3px;
 }
 
@@ -194,7 +195,7 @@ textarea {
     width: 100%;
     border: none;
     padding: 10px;
-    border-radius: 0 10px 0 10px;
+    border-radius: 7px;
     background-color: #fff;
 }
 .submit:hover {
@@ -240,4 +241,7 @@ footer a h3 {
     main img {
         aspect-ratio: 1 / 1;
       }
+    .home {
+        font-size: 73px;
     }
+}
