@@ -49,7 +49,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="https://noeplain.ch/">Noé P</a>
+                        <a href="./index.html">Noé P</a>
                     </li>
                     <li>
                         <a href="./la-pataconera/">La Pataconera</a>
