@@ -36,7 +36,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="/images/favicon_2160px.png">
         <link rel="stylesheet" href="./style/style.css">
-        <title>La Pataconera</title>
+        <title>Noé Plain</title>
     </head>
 
     <body>
@@ -49,10 +49,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="https://noeplain.ch/">noeplain.ch</a>
+                        <a href="https://noeplain.ch/">Noé P</a>
                     </li>
                     <li>
-                        <a href="./la-pataconera/">la-pataconera</a>
+                        <a href="./la-pataconera/">La Pataconera</a>
                     </li>
                     <li>
                         <a href="./contact.php">Contact</a>
