@@ -164,7 +164,7 @@ form {
     background-color: #1f0033;
     padding: 15px;
     margin-bottom: 17px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .block {
@@ -173,7 +173,7 @@ form {
     margin-bottom: 17px;
     background-color: #fff;
     border: 7px ;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 input, 
