@@ -45,6 +45,10 @@ main {
     margin: 0 0 20vh 0;
 }
 
+.material-symbols-outlined {
+    padding: 13px;
+}
+
 /****** Navigation ******/
 
 header {
@@ -118,11 +122,31 @@ h6 {
 
 h1 {
     color: #1f0033;
-    font-size: 37px;
+    font-size: 48px;
     margin: 17px 0 15px 0;
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
     font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 16px;
 }
 
 .home {
