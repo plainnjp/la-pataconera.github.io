@@ -34,27 +34,15 @@ main {
 
 /****** Google ******/
 
-iframe {
-    width: 100%;
-    height: 350px;
-    overflow-y: hidden !important;
-    border: none !important;
-    padding: 20vh 0;
+#googleLogo {
+    margin-top: 15vh;
 }
 
-iframe html,
-iframe body #document {
-    overflow-y: hidden !important;
-}
-
-.KxwPGc,
-.SSwjIe,
-.waLeGd {
-    display: none !important;
-}
-
-.L3eUgb {
-    overflow: hidden !important;
+#search {
+    border: #131313 solid 1px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 0 20vh 0;
 }
 
 /****** Navigation ******/
