@@ -274,6 +274,7 @@ footer a img {
 
 footer a h3 {
     grid-column-start: 3;
+    font-size: 18px;
     text-decoration: none;
 }
 
