@@ -88,7 +88,7 @@ nav a {
     color: #E4D1FF;
     width: 100%;
     font-family: 'Switzer', sans-serif;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .logo {
@@ -125,7 +125,7 @@ h5,
 h6 {
     color: #fff;
     font-family: 'Switzer', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin: 15px 0;
 }
 
@@ -135,7 +135,7 @@ h1 {
     margin: 17px 0 15px 0;
     font-family: 'Switzer', sans-serif;
     text-align: left;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h2 {
@@ -186,7 +186,7 @@ div,
 p {
     color: #eee;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0 0 15px 0;
 }
 
@@ -194,7 +194,7 @@ main a {
     color: #E4D1FF;
     text-decoration: underline 1px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /****** Bilder ******/
