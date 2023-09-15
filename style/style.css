@@ -15,6 +15,7 @@ font-family: 'Ubuntu', sans-serif;
 
 html {
     scroll-behavior: smooth;
+    background-color: #000;
 }
 
 main {
@@ -43,7 +44,7 @@ main {
 }
 
 #search {
-    border: #131313 solid 1px;
+    border: #eee solid 1px;
     height: 50px;
     border-radius: 50px;
     margin: 0 0 20vh 0;
@@ -58,7 +59,6 @@ main {
 header {
     margin: 10px;
     border-radius: 10px;
-    box-shadow: #333 3px 6px 15px;
     padding: 17px 15px 15px 15px;
     background-color: #1f0033;
 }
@@ -121,14 +121,14 @@ h3,
 h4,
 h5,
 h6 {
-    color: #131313;
+    color: #E4D1FF;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     margin: 15px 0;
 }
 
 h1 {
-    color: #1f0033;
+    color: #E4D1FF;
     font-size: 48px;
     margin: 17px 0 15px 0;
     font-family: 'Ubuntu', sans-serif;
@@ -170,26 +170,26 @@ h6 {
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
-    color: #1f0033;
+    color: #E4D1FF;
     margin: 0;
     padding: 0;
 }
 
 .h1a h1 {
     text-align: center;
-    color: #1f0033;
+    color: #E4D1FF;
 }
 
 div,
 p {
-    color: #131313;
+    color: #eee;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     margin: 0 0 15px 0;
 }
 
 main a {
-    color: #131313;
+    color: #E4D1FF;
     text-decoration: underline 1px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -261,7 +261,6 @@ footer {
     justify-content: center;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: #333 3px 6px 15px;
 }
 
 footer a {
