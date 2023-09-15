@@ -17,12 +17,11 @@ font-family: 'Switzer', sans-serif;
 
 html {
     scroll-behavior: smooth;
-    background-color: #000;
 }
 
 main {
     display: grid;
-    min-height: calc(100vh - 277px);
+    min-height: calc(100vh - 227px);
     grid-template-columns: 40px 1fr 40px;
     align-content: start;
 }
@@ -35,10 +34,6 @@ main {
     margin: auto;
 }
 
-.active {
-    color: #fff;
-}
-
 /****** Google ******/
 
 #googleLogo {
@@ -46,7 +41,7 @@ main {
 }
 
 #search {
-    border: #eee solid 1px;
+    border: #131313 solid 1px;
     height: 50px;
     border-radius: 50px;
     margin: 0 0 20vh 0;
@@ -59,8 +54,9 @@ main {
 /****** Navigation ******/
 
 header {
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
+    box-shadow: #333 3px 6px 15px;
     padding: 17px 15px 15px 15px;
     background-color: #1f0033;
 }
@@ -88,7 +84,7 @@ nav a {
     color: #E4D1FF;
     width: 100%;
     font-family: 'Switzer', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .logo {
@@ -112,7 +108,7 @@ header img {
 
 .innernavigation a {
     text-decoration: none;
-    color: #E4D1FF;
+    color: #1f0033;
 }
 
 /****** Texte ******/
@@ -123,19 +119,19 @@ h3,
 h4,
 h5,
 h6 {
-    color: #fff;
+    color: #131313;
     font-family: 'Switzer', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     margin: 15px 0;
 }
 
 h1 {
-    color: #fff;
+    color: #1f0033;
     font-size: 48px;
     margin: 17px 0 15px 0;
     font-family: 'Switzer', sans-serif;
     text-align: left;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h2 {
@@ -172,29 +168,29 @@ h6 {
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 4;
-    color: #E4D1FF;
+    color: #1f0033;
     margin: 0;
     padding: 0;
 }
 
 .h1a h1 {
     text-align: center;
-    color: #E4D1FF;
+    color: #1f0033;
 }
 
 div,
 p {
-    color: #eee;
+    color: #131313;
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0 0 15px 0;
 }
 
 main a {
-    color: #E4D1FF;
+    color: #131313;
     text-decoration: underline 1px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /****** Bilder ******/
@@ -261,8 +257,9 @@ footer {
     display: grid;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 10px;
     border-radius: 10px;
+    box-shadow: #333 3px 6px 15px;
 }
 
 footer a {
