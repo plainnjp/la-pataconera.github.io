@@ -110,7 +110,7 @@ header img {
 
 .innernavigation a {
     text-decoration: none;
-    color: #1f0033;
+    color: #E4D1FF;
 }
 
 /****** Texte ******/
@@ -121,7 +121,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #E4D1FF;
+    color: #fff;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     margin: 15px 0;
