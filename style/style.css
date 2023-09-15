@@ -32,6 +32,10 @@ main {
     margin: auto;
 }
 
+.active {
+    color: #fff;
+}
+
 /****** Google ******/
 
 #googleLogo {
