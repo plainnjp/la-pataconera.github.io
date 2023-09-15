@@ -19,7 +19,7 @@ html {
 
 main {
     display: grid;
-    min-height: calc(100vh - 105px - 82px);
+    min-height: calc(100vh - 227px);
     grid-template-columns: 40px 1fr 40px;
     align-content: start;
 }
