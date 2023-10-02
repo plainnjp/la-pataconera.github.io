@@ -211,8 +211,6 @@ img {
 /****** Contact Form ******/
 
 form {
-    background-color: #1f0033;
-    padding: 30px;
     border-radius: 15px;
     margin-bottom: 17px;
 }
@@ -230,6 +228,7 @@ input,
 textarea {
     font-family: 'Syne', sans-serif;
     color: #1f0033;
+    border: #131313 solid 1px;
 }
 
 textarea {
