@@ -220,15 +220,14 @@ form {
     padding: 10px 20px;
     margin-bottom: 17px;
     background-color: #fff;
-    border: 7px;
     border-radius: 17px;
+    border: #131313 solid 1px;
 }
 
 input,
 textarea {
     font-family: 'Playfair Display', serif;
     color: #1f0033;
-    border: #131313 solid 1px important;
 }
 
 textarea {
