@@ -22,7 +22,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="./" class="active">Noé P</a>
+                    <a href="./">Noé P</a>
                 </li>
                 <li>
                     <a href="./about.html">About Me</a>
@@ -43,12 +43,8 @@
             <a id="google" href="https://www.google.ch/">
                 <img id="googleLogo" src="./images/google-logo.png" alt="Google Logo"
                     style="aspect-ratio: 1/1; height: 100px; object-fit: contain;">
-                <div id="search">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                </div>
             </a>
+            <input type="text" class="search" id="suchbegriff" placeholder="&#x1F50E;">
             <h2>
                 Websites
             </h2>
@@ -56,6 +52,14 @@
                 <li>
                     <a href="https://www.formulaweb.io/web-designer-toolkit-v2" target="_blank">Designer Toolkit</a>
                 </li>
+                <h3>Meine Websites</h3>
+                <li>
+                    <a href="https://noe-plain.github.io/about.html">Noe-plain.github.io</a>
+                </li>
+                <li>
+                    <a href="https://noeplain.ch/" target="_blank">Noeplain.ch</a>
+                </li>
+                <br>
                 <h3>Design Inspiration</h3>
                 <h4>Fonts</h4>
                 <li>
@@ -86,22 +90,6 @@
                     <a href="https://pixabay.com" target="_blank">Pixabay</a>
                 </li>
                 <br>
-                <h3>Meine Websites</h3>
-                <li>
-                    <a href="https://noe-plain.github.io/about.html">Noe-plain.github.io</a>
-                </li>
-                <li>
-                    <a href="https://noeplain.ch/" target="_blank">Noeplain.ch</a>
-                </li>
-                <br>
-                <h3>Weitere Seiten</h3>
-                <li>
-                    <a href="./la-pataconera/" target="_blank">La Pataconera</a>
-                </li>
-                <li>
-                    <a href="https://www.urshofstetter.ch" target="_blank">Urs Hofstetter</a>
-                </li>
-                <br>
                 <h3>Social Media</h3>
                 <li>
                     <a href="https://www.instagram.com/noe.plain/" target="_blank">Noe.Plain auf Instagram</a>
@@ -113,6 +101,14 @@
                     <a href="https://www.instagram.com/noe.plain.trombone/" target="_blank">Noé.Plain.Trombone auf
                         Instagram</a>
                 </li>
+                <br>
+                <h3>Weitere Seiten</h3>
+                <li>
+                    <a href="./la-pataconera/" target="_blank">La Pataconera</a>
+                </li>
+                <li>
+                    <a href="https://www.urshofstetter.ch" target="_blank">Urs Hofstetter</a>
+                </li>
             </ul>
             <br>
     </main>
@@ -123,6 +119,34 @@
             <h3 style="color: #E4D1FF;">Noé Jérémie Plain</h3>
         </a>
     </footer>
+
+    <script>
+        // Diese Funktion wird aufgerufen, wenn die "Enter"-Taste gedrückt wird
+        function handleEnter(event) {
+            if (event.key === "Enter") {
+                sucheGoogle();
+            }
+        }
+
+        function sucheGoogle() {
+            // Den Wert des Input-Feldes abrufen
+            var suchbegriff = document.getElementById("suchbegriff").value;
+
+            // Überprüfen, ob ein Suchbegriff eingegeben wurde
+            if (suchbegriff.trim() !== "") {
+                // Google-Such-URL zusammenstellen
+                var googleSuchURL = "https://www.google.com/search?q=" + encodeURIComponent(suchbegriff);
+
+                // Die Seite in einem neuen Tab öffnen
+                window.open(googleSuchURL, "_blank");
+            } else {
+                alert("Bitte gib einen Suchbegriff ein.");
+            }
+        }
+
+        // Event-Listener hinzufügen, um "Enter" zu erkennen
+        document.getElementById("suchbegriff").addEventListener("keyup", handleEnter);
+    </script>
 </body>
 
 </html>
