@@ -127,7 +127,8 @@ h6 {
     fontweight: 400;
 }
 
-h2 {
+h2,
+h1{
     font-weight: 700 !important;
 }
 
