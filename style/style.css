@@ -1,14 +1,5 @@
-@import url('https://api.fontshare.com/v2/css?f[]=switzer@600,400&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=switzer@600,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@font-face {
-  font-family: 'Switzer-Variable';
-  src: url('../fonts/Switzer-Variable.woff2') format('woff2'),
-       url('../fonts/Switzer-Variable.woff') format('woff'),
-       url('../fonts/Switzer-Variable.ttf') format('truetype');
-       font-weight: 100 200 300 400 500 600 700 800 900;
-       font-display: swap;
-       font-style: normal;
-}
 
 
 /*
@@ -95,7 +86,7 @@ nav a {
     color: #E4D1FF;
     width: 100%;
     font-family: 'Switzer', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .logo {
@@ -133,7 +124,7 @@ h6 {
     color: #131313;
     font-family: 'Switzer', sans-serif;
     margin: 15px 0;
-    fontweight: 400;
+    fontweight: 300;
 }
 
 h2,
@@ -198,7 +189,7 @@ div,
 p {
     color: #131313;
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
+    font-weight: 300;
     margin: 0 0 15px 0;
 }
 
@@ -206,7 +197,7 @@ main a {
     color: #131313;
     text-decoration: underline 1px;
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /****** Bilder ******/
