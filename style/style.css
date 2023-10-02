@@ -216,7 +216,7 @@ form {
 }
 
 .block {
-    width: calc(100% - 40px);
+    width: 100%;
     padding: 10px 20px;
     margin-bottom: 17px;
     background-color: #fff;
