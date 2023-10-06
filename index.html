@@ -127,23 +127,23 @@
                 sucheGoogle();
             }
         }
-
+        
         function sucheGoogle() {
             // Den Wert des Input-Feldes abrufen
             var suchbegriff = document.getElementById("suchbegriff").value;
-
+        
             // Überprüfen, ob ein Suchbegriff eingegeben wurde
             if (suchbegriff.trim() !== "") {
                 // Google-Such-URL zusammenstellen
                 var googleSuchURL = "https://www.google.com/search?q=" + encodeURIComponent(suchbegriff);
-
-                // Die Seite in einem neuen Tab öffnen
-                window.open(googleSuchURL, "_blank");
+        
+                // Die Seite im gleichen Tab öffnen
+                window.open(googleSuchURL, "_self");
             } else {
                 alert("Bitte gib einen Suchbegriff ein.");
             }
         }
-
+        
         // Event-Listener hinzufügen, um "Enter" zu erkennen
         document.getElementById("suchbegriff").addEventListener("keyup", handleEnter);
     </script>
