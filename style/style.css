@@ -40,17 +40,20 @@ main {
     padding: 10px 30px;
     background-color: #1f0033;
     color: #E4D1FF;
-    margin: 30px;
+    margin: 30px 0 30px 0;
     border-radius: 5px;
 }
+
 .button:hover {
     transition: 0.3s;
     background-color: #3b0063;
 }
+
 .button:active {
     transition: 0.15s;
     background-color: #131313;
 }
+
 .button:first-child {
     margin-left: 0;
 }
@@ -155,7 +158,7 @@ h6 {
 }
 
 h2,
-h1{
+h1 {
     font-weight: 700 !important;
 }
 
