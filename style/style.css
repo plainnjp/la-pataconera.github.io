@@ -33,6 +33,25 @@ main {
     margin: auto;
 }
 
+.button {
+    transition: 0.3s;
+    padding: 10px 20px;
+    background-color: #1f0033;
+    color: #E4D1FF;
+    margin: 10px;
+}
+.button:hover {
+    transition: 0.3s;
+    background-color: #2d004b;
+}
+.button:active {
+    transition: 0.15s;
+    background-color: #131313;
+}
+.button:first-child{
+    margin-left: 0;
+}
+
 /****** Google ******/
 
 #googleLogo {
