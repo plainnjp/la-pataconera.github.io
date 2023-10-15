@@ -35,6 +35,7 @@ main {
 
 /****** Buttons ******/
 
+button,
 .button {
     transition: 0.3s;
     padding: 10px 30px;
@@ -44,12 +45,14 @@ main {
     border-radius: 5px;
 }
 
+button:hover,
 .button:hover {
     transition: 0.3s;
     background-color: #3b0063;
 }
 
-.button:active {
+button:hover,
+ .button:active {
     transition: 0.15s;
     background-color: #131313;
 }
