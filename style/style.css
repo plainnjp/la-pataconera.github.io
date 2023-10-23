@@ -71,7 +71,7 @@ button:hover,
 /****** Google ******/
 
 #googleLogo {
-    margin-top: 15vh;
+    margin-top: 17vh;
 }
 
 .search {
@@ -90,9 +90,6 @@ button:hover,
 /****** Navigation ******/
 
 header {
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: #333 3px 6px 15px;
     padding: 17px 15px 15px 15px;
     background-color: #1f0033;
 }
@@ -297,9 +294,6 @@ footer {
     display: grid;
     align-items: center;
     justify-content: center;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: #333 3px 6px 15px;
 }
 
 footer a {
