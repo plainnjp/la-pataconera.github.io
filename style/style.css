@@ -21,7 +21,7 @@ html {
 
 main {
     display: grid;
-    min-height: calc(100vh - 232px);
+    min-height: calc(100vh - 192px);
     grid-template-columns: 40px 1fr 40px;
 }
 
