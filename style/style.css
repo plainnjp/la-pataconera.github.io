@@ -44,7 +44,7 @@ button,
     margin: 30px 0 30px 0;
     border-radius: 5px;
     border: none;
-} 
+}
 
 button:hover,
 .button:hover {
@@ -53,7 +53,7 @@ button:hover,
 }
 
 button:hover,
- .button:active {
+.button:active {
     transition: 0.15s;
     background-color: #131313;
 }
@@ -68,7 +68,7 @@ button:hover,
 }
 
 
-/****** Google ******/
+/****** Browser ******/
 
 #googleLogo {
     margin-top: 17vh;
@@ -85,6 +85,29 @@ button:hover,
 
 .material-symbols-outlined {
     padding: 13px;
+}
+
+.change-browser {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.change-browser div {
+    border-radius: 30px;
+    background-color: #f3eaff;
+    padding: 15px 0;
+}
+
+.change-browser a {
+    padding: 15px 45px;
+    text-decoration: none;
+    color: #1f0033;
+}
+
+.change-browser #active {
+    background-color: #E4D1FF;
+    border-radius: 30px;
 }
 
 /****** Navigation ******/
