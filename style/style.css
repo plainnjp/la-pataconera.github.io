@@ -71,7 +71,7 @@ button:hover,
 /****** Browser ******/
 
 #googleLogo {
-    margin-top: 17vh;
+    padding: 17vh 0 21px 0;
 }
 
 .search {
