@@ -107,6 +107,7 @@ button:hover,
 
 .change-browser #active {
     background-color: #E4D1FF;
+    padding: 15px 60px;
     border-radius: 30px;
 }
 
