@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BZZ Mediothek – Verwaltungssystem</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Ausleihen</a>
+                </li>
+                <li>
+                    <a class="active" href="./login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="header-background"></div>
+
+    <body>
+        <main>
+            <div class="max-width">
+                <h1>Nutzer Name</h1>
+                <div id="nutzer-atribute">
+                    <div id="links">
+
+                        <h3>E-Mail:</h3>
+                        <p>Beispiel</p>
+
+                        <h3>Passwort:</h3>
+                        <p>Fisch=3rs-Fr1tz</p>
+
+                        <h3>Rechte:</h3>
+                        <p>Admin</p>
+
+                        <h3>Adresse:</h3>
+                        <p>Rosenstrasse 73 <br> 8000 Zürich</p>
+
+                    </div>
+
+                </div>
+                <h2>Ausgeliehen Medien</h2>
+                <hr>
+
+                <div id="medien-liste">
+
+                    <div class="medien-liste-element">
+                        <div class="medien-titel">
+                            <h3 id="medientitel">
+                                Beispiel –
+                            </h3>
+                            <p>Buch</p>
+                        </div>
+                        <button>
+                            Mehr
+                        </button>
+                        <hr>
+                    </div>
+
+                    <div class="medien-liste-element">
+                        <div class="medien-titel">
+                            <h3 id="medientitel">
+                                Beispiel –
+                            </h3>
+                            <p>Buch</p>
+                        </div>
+                        <button>
+                            Mehr
+                        </button>
+                        <hr>
+                    </div>
+
+                </div>
+
+                <div class="margin-top">
+                    <h2>Medien hinzufügen <p>(admin)</p></h2>
+                    <div id="ad-medien">
+                        <input class="block" type="text" placeholder="Medienname">
+                        <input class="block" type="password" placeholder="Medienbeschreibung">
+                        <input class="block" type="password" placeholder="Author">
+                        <input class="block" type="password" placeholder="Verlag">
+                        <input class="block" type="password" placeholder="Genere">
+                        <input class="block" type="password" placeholder="Kategorie">
+                        <input class="block" type="password" placeholder="Lagerort">
+                        <input class="button" type="submit" placeholder="login" value="hinzufügen">
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            <div>
+                <H2>
+                    BZZ Mediothek – Verwaltungssystem
+                </H2>
+                <p>BZZ Horgen <br> seestrasse 110 <br> 8810 Horgen <br> Information: <a href="tel:+41447274600">044 727 46
+                        00</a></p>
+            </div>
+        </footer>
+        <a href="./user.html">User</a>
+    </body>
+</body>
+</html>
