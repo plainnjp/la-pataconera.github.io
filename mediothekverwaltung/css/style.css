@@ -200,7 +200,7 @@ body {
 
 /***MedienDarstellung***/
 .max-width {
-    margin-top: calc((100vh - 203px) / 2 - 73px)
+    margin-top: calc((100vh - 203px) / 2 - 73px) !important;
 }
      
 .display-flex {
