@@ -190,7 +190,7 @@ body {
     background: #ffffffbb 0% 0% no-repeat padding-box;
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
-    margin: calc((100vh - 203px) / 2 - 73px) 70px;
+    margin: calc((100vh - 203px) / 2 - 73px) 70px 0 70px;
     font-family: Boska;
     font-size: 20px;
 }
@@ -199,6 +199,10 @@ body {
 }
 
 /***MedienDarstellung***/
+.max-width {
+    margin-top: calc((100vh - 203px) / 2 - 73px)
+}
+     
 .display-flex {
     display: flex;
     align-items: center;
