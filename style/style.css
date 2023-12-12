@@ -421,7 +421,7 @@ footer a h3 {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 900px) {
     .innernavigation a {
       padding: 45px 75px 50px 75px;
     }
