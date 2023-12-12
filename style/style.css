@@ -63,11 +63,11 @@ main {
 button,
 .button {
     transition: 0.3s;
-    padding: 10px 30px;
+    padding: 10px 50px;
     background-color: #1f0033;
     color: #E4D1FF;
     margin: 30px 0 30px 0;
-    border-radius: 5px;
+    border-radius: 30px;
     border: none;
 }
 
