@@ -29,7 +29,7 @@ main {
     grid-column-start: 2;
     grid-column-end: 3;
     padding: 40px 0 17px 0;
-    max-width: 900px;
+    max-width: 1100px;
     width: 100%;
     margin: auto;
 }
@@ -420,3 +420,9 @@ footer a h3 {
         font-size: 73px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .innernavigation a {
+      padding: 45px 75px 50px 75px;
+    }
+  }
