@@ -30,6 +30,7 @@ main {
     grid-column-end: 3;
     padding: 40px 0 17px 0;
     max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
@@ -91,6 +92,14 @@ button:hover,
     margin-bottom: 30px;
 }
 
+.body-logo {
+    aspect-ratio: 1/1;
+    height: 56px;
+    object-fit: contain;
+    padding: 17vh 0 20.5px 0;
+    margin: 0;
+}
+
 
 /****** Browser ******/
 
@@ -149,13 +158,10 @@ nav {
     justify-content: center;
 }
 
-ul {
+nav ul {
     grid-column-start: 2;
     display: grid;
     grid-template-columns: 90px 120px 90px;
-}
-
-nav ul {
     list-style: none;
     text-align: center;
 }
@@ -182,14 +188,47 @@ header img {
 }
 
 
-.innernavigation {
+.innernavigation,
+.innernavigation-small {
     display: block;
     list-style: none;
 }
 
-.innernavigation a {
+.innernavigation a,
+.innernavigation-small a {
+    display: block;
+    box-shadow: #00000037 3px 6px 9px;
+    border-radius: 17px;
+    padding: 45px 30px 50px 30px;
     text-decoration: none;
-    color: #3b0063;
+    color: #fff;
+    font-size: 25px;
+    flex-grow: calc(20);
+    text-align: center;
+    background: rgb(93, 59, 142);
+    background: -moz-linear-gradient(141deg, rgba(93, 59, 142, 1) 0%, rgba(59, 0, 99, 1) 57%, rgba(31, 0, 51, 1) 100%);
+    background: -webkit-linear-gradient(141deg, rgba(93, 59, 142, 1) 0%, rgba(59, 0, 99, 1) 57%, rgba(31, 0, 51, 1) 100%);
+    background: linear-gradient(141deg, rgba(93, 59, 142, 1) 0%, rgba(59, 0, 99, 1) 57%, rgba(31, 0, 51, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5d3b8e", endColorstr="#1f0033", GradientType=1);
+}
+
+.innernavigation-small a {
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.innernavigation a:hover {
+    text-decoration: underline;
+}
+
+.card-flex {
+    row-gap: 15px;
+    column-gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /****** Texte ******/
@@ -367,6 +406,7 @@ footer a h3 {
     grid-column-start: 3;
     font-size: 18px;
     text-decoration: none;
+    color: #E4D1FF;
 }
 
 /****** responsive ******/
