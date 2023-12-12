@@ -109,7 +109,7 @@ button:hover,
 
 .search {
     width: calc(100% - 60px);
-    box-shadow: #00000037 3px 6px 9px;
+    box-shadow: #00000037 3px 6px 13px;
     border: none !important;
     height: 50px;
     border-radius: 50px;
