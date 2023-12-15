@@ -44,7 +44,7 @@ font-family: 'Switzer-BlackItalic';
 
 
 
- /***Allgemein***/
+/***Allgemein***/
 
 * {
     padding: 0;
@@ -56,10 +56,13 @@ font-family: 'Switzer-BlackItalic';
 
 html {
     background-color: #E7DDFE;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
-p, a, strong, em {
+p,
+a,
+strong,
+em {
     font-family: 'Switzer-Light';
     font-size: 20px;
 }
@@ -103,6 +106,23 @@ div {
     margin-bottom: 30px;
     font-family: 'Boska';
     font-size: 20px;
+}
+
+select {
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    border-radius: 37px;
+    border: #1F1F1F solid 1px;
+    background-color: #fff;
+    padding: 15px 50px;
+    margin-bottom: 30px;
+    font-family: 'Boska';
+    font-size: 20px;
+}
+
+::placeholder {
+    color: #1F1F1F;
 }
 
 /***Navigation***/
@@ -194,6 +214,7 @@ body {
     font-family: Boska;
     font-size: 20px;
 }
+
 ::placeholder {
     color: #1F1F1F;
 }
@@ -202,7 +223,7 @@ body {
 .max-width {
     margin-top: calc((100vh - 203px) / 4 - 73px) !important;
 }
-     
+
 .display-flex {
     display: flex;
     align-items: center;
@@ -225,7 +246,7 @@ body {
     margin-bottom: 0;
 }
 
-#medien-atribute p, 
+#medien-atribute p,
 #nutzer-atribute {
     margin-bottom: 15px;
 }
@@ -242,13 +263,14 @@ body {
 .medien-liste-element {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 150px;
+    grid-template-columns: 1fr 305px;
     grid-template-rows: 100px 1px;
 }
 
 button,
 .button {
     transition: 0.3s;
+    justify-self: end;
     background-color: #E7DDFE;
     border: none;
     border-radius: 37px;
@@ -274,6 +296,7 @@ button:hover,
     display: flex;
     align-items: center;
 }
+
 .medien-titel h3 {
     margin: 0 10px 0 0;
 }

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BZZ Mediothek – Verwaltungssystem</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -56,9 +58,14 @@
                             </h3>
                             <p>Buch</p>
                         </div>
-                        <button>
-                            Mehr
-                        </button>
+                        <div class="button-div">
+                            <button>
+                                Löschen
+                            </button>
+                            <button>
+                                Rückgabe
+                            </button>
+                        </div>
                         <hr>
                     </div>
 
@@ -69,25 +76,86 @@
                             </h3>
                             <p>Buch</p>
                         </div>
-                        <button>
-                            Mehr
-                        </button>
+                        <div class="button-div">
+                            <button>
+                                Löschen
+                            </button>
+                            <button>
+                                Rückgabe
+                            </button>
+                        </div>
                         <hr>
                     </div>
 
                 </div>
 
                 <div class="margin-top">
-                    <h2>Medien hinzufügen <p>(admin)</p></h2>
+                    <h2>Medien hinzufügen <p>(admin)</p>
+                    </h2>
                     <div id="ad-medien">
                         <input class="block" type="text" placeholder="Medienname">
                         <input class="block" type="text" placeholder="Medienbeschreibung">
-                        <input class="block" type="text" placeholder="Author">
-                        <input class="block" type="text" placeholder="Verlag">
-                        <input class="block" type="text" placeholder="Genere">
-                        <input class="block" type="text" placeholder="Kategorie">
-                        <input class="block" type="text" placeholder="Lagerort">
-                        <input class="button" type="submit" placeholder="login" value="hinzufügen">
+
+                        <select name="author" id="author">
+                            <option value="0">TBD – Author</option>
+                            <option value="2">Johanna Buechi</option>
+                            <option value="3">Peter Parker</option>
+                            <option value="4">Anna Aster</option>
+                            <option value="5">Benjamin Birke</option>
+                            <option value="6">Sophie Sonne</option>
+                            <option value="7">Luca Lavendel</option>
+                            <option value="8">Mia Magnolie</option>
+                            <option value="9">Lisa Lang</option>
+                            <option value="10">David Dahlia</option>
+                            <option value="11">Emma Eiche</option>
+                        </select>
+
+                        <select name="verlag" id="verlag">
+                            <option value="0">TBD – Verlag</option>
+                            <option value="2">Klett</option>
+                            <option value="3">Carlsen</option>
+                            <option value="4">Rowling Verlag</option>
+                            <option value="5">Fischer Verlag</option>
+                            <option value="6">Hemingway Verlag</option>
+                            <option value="7">Orwell Verlag</option>
+                            <option value="8">Austen Verlag</option>
+                            <option value="9">Shakespeare Verlag</option>
+                            <option value="10">Wilde Verlag</option>
+                        </select>
+
+                        <select name="genre" id="genre">
+                            <option value="0">TBD – Genre</option>
+                            <option value="2">Romantik</option>
+                            <option value="3">Fantasy</option>
+                            <option value="4">Krimi</option>
+                            <option value="5">Drama</option>
+                            <option value="6">Dystopie</option>
+                            <option value="7">Klassiker</option>
+                        </select>
+
+                        <select name="kategorie" id="kategorie">
+                            <option value="0">TBD – Kategorie</option>
+                            <option value="2">DVD</option>
+                            <option value="1">CD</option>
+                            <option value="3">Buch</option>
+                        </select>
+
+                        <select name="lagerort" id="lagerort">
+                            <option value="1">TBD – Lagerort</option>
+                            <option value="2">Regal A</option>
+                            <option value="3">Regal B</option>
+                            <option value="4">Regal C</option>
+                            <option value="5">Regal D</option>
+                            <option value="6">Regal E</option>
+                            <option value="7">Regal F</option>
+                            <option value="8">Regal G</option>
+                            <option value="9">Schrank A</option>
+                            <option value="10">Schrank B</option>
+                            <option value="11">Schrank C</option>
+                        </select>
+
+
+                        <input class="button" type="submit" placeholder="ergänzen" value="hinzufügen">
                     </div>
                 </div>
 
@@ -99,11 +167,12 @@
                 <H2>
                     BZZ Mediothek – Verwaltungssystem
                 </H2>
-                <p>BZZ Horgen <br> seestrasse 110 <br> 8810 Horgen <br> Information: <a href="tel:+41447274600">044 727 46
+                <p>BZZ Horgen <br> seestrasse 110 <br> 8810 Horgen <br> Information: <a href="tel:+41447274600">044 727
+                        46
                         00</a></p>
             </div>
         </footer>
-        <a href="./user.html">User</a>
     </body>
 </body>
+
 </html>
