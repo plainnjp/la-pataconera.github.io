@@ -43,6 +43,8 @@ main {
 /****** Navigation ******/
 
 header {
+    position: fixed;
+    width: 100vw;
     background-color: #1f0033;
     display: grid;
     grid-template-columns: 40px 1fr 40px;
