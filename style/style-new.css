@@ -154,18 +154,21 @@ header img {
 #title-picture img {
     border-radius: 0;
     height: 46vh;
-    filter: brightness(0.7);
+    filter: brightness(0.85);
 }
 #title-picture h1 {
+    font-family: 'Boska', serif;
+    font-weight: 700;
+    font-size: 73px;
     z-index: 1;
     color: #fff;
     top: calc(23vh + 73px);
     position: absolute;
     left: 50vw;
     text-align: center;
-    transform: translate(20%,-50%);
-    -moz-transform: translate(20%, -50%);
-    -webkit-transform: translate(20%, -50%);
+    transform: translate(15%,-50%);
+    -moz-transform: translate(15%, -50%);
+    -webkit-transform: translate(15%, -50%);
 }
 
 /****** Texte ******/
